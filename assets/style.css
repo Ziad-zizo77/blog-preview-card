@@ -62,7 +62,7 @@ body {
   width: 100%;
   font-size: 1.5rem;
   font-weight: 800;
-  transition: color .3 ease;
+  transition: color 0.3s ease;
 }
 .info .title:hover {
   color: var(--Yellow);
