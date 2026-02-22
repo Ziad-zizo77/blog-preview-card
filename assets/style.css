@@ -24,10 +24,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  border: 0.0625rem solid var(--Gray950) inset;
   border-radius: 1.25rem;
   background-color: var(--White);
-  box-shadow: 0.5rem 0.5rem 0 #000;
+  box-shadow: 0.5rem 0.5rem 0 var(--Gray950),
+  inset 0.0625rem 0.0625rem 0 var(--Gray500)
+  ;
 }
 .img-box {
   width: 100%;
